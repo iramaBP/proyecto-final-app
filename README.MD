@@ -1,7 +1,7 @@
 # # Descripción:
 Tercer modulo de mi bootcamp de programación en el que hemos comenzado a practicar con REACT .
-He desarrollado toda la parte de Back end y Front end y he creado
-una APP web orientada a estudios artisticos de tattoo  . 
+He desarrollado toda la parte de Back end & Front end .
+He diseñado y desarrollado una APP web orientada a estudios artisticos de tattoo. 
 
 # # Tiempo de desarrollo :
 Tiempo de duración aprox : 4 semanas .
