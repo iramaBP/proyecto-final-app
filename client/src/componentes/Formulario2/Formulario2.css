@@ -1,0 +1,12 @@
+.formcontainer2{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    border-style: hidden;
+    padding-top: 10vw;
+    
+}
+.colorletra{
+    color: white;
+}
+

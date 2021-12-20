@@ -1,0 +1,28 @@
+/* HAGO QUE EL DIV DEL LOGIN OCUPE TODA LA PAGINA + CENTRARLO  */
+.logincontainer{
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+span {
+    color: red;
+    font-size: 2rem;
+}
+
+.textologin {
+    
+    font-size: 2rem;
+    -webkit-text-stroke: 2px red;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+    
+.textologin1 {
+    
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 2px red;
+    color:white
+}

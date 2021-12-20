@@ -1,0 +1,43 @@
+/* HAGO QUE EL DIV DEL LOGIN OCUPE TODA LA PAGINA + CENTRARLO  */
+.main-container {
+  height: 100vh;
+}
+
+.homecontainer {
+  padding-top: 4rem;
+}
+H1 {
+  font-size: 4rem;
+  -webkit-text-stroke: 2px green;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.neonText {
+  text-align: center;
+  font-weight: 400;
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff,
+      0 0 40px rgb(0, 110, 255), 0 0 80px rgb(0, 140, 255),
+      0 0 90px rgb(0, 153, 255), 0 0 100px rgb(0, 140, 255),
+      0 0 150px rgb(0, 76, 255);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}

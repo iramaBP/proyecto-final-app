@@ -1,0 +1,20 @@
+.neon-nav-element {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(234, 118, 255), 0 0 82px rgb(255, 113, 255),
+    0 0 92px rgb(243, 113, 255), 0 0 102px rgb(250, 106, 255),
+    0 0 151px rgb(253, 116, 255);
+}
+
+.bottom-nav {
+  height: 10px;
+  background: #fff;
+  box-shadow: 0 0 7px rgb(249, 200, 255), 0 0 10px rgb(237, 191, 255),
+    0 0 21px rgb(236, 149, 254), 0 0 42px rgb(234, 0, 255),
+    0 0 82px rgb(225, 0, 255), 0 0 92px rgb(191, 0, 255),
+    0 0 102px rgb(217, 0, 255), 0 0 151px rgb(230, 0, 255);
+}
+
+.navigation {
+  background: rgb(255, 110, 236, 0.4);
+}

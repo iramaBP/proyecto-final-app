@@ -1,0 +1,114 @@
+.main-container {
+  height: 100vh;
+}
+
+.titulocontainer {
+  padding-top: 4rem;
+  padding-right: 20rem;
+}
+
+H1 {
+  font-size: 4rem;
+  -webkit-text-stroke: 2px green;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.neonText {
+  text-align: center;
+  font-weight: 400;
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff,
+      0 0 40px rgb(0, 110, 255), 0 0 80px rgb(0, 140, 255),
+      0 0 90px rgb(0, 153, 255), 0 0 100px rgb(0, 140, 255),
+      0 0 150px rgb(0, 76, 255);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+.x {
+  display: flex;
+  justify-content: center;
+}
+
+
+.tablonmedidascontenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.estilobutton {
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-content: space-around;
+}
+
+button {
+  padding-block-end: 3rem;
+  background: #eb94d0;
+  font-style: italic;
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+}
+
+.colortext {
+  color: white;
+}
+
+table {
+  border-collapse: separate;
+  border:  2px solid orange;
+}
+tr {
+  
+  background: black;
+}
+
+.oculto {
+  visibility: hidden;
+}
+.table-container {
+  
+  height: 60vh;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+  padding: 1rem;
+}
